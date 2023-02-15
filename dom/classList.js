@@ -1,6 +1,8 @@
-let liEl = document.querySelector("li:nth-child(2)");
-console.log(liEl.classList.contains("list"));
-if (liEl.classList.contains("list")) {
-  liEl.classList.remove("list");
-  liEl.classList.add("skyblue");
-}
+const boxEl = document.querySelector(".box");
+const inputEl = document.querySelector("input");
+
+boxEl.setAttribute("style", "background-color:orange");
+
+boxEl.textContent = "hi";
+
+boxEl.innerHTML = "<button>test</button>";

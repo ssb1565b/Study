@@ -101,28 +101,28 @@
 // // console.log(polo instanceof Brand);
 // console.log("name 키가 polo객체에 있어?", "name" in polo);
 
-class Car {
-  constructor(name) {
-    this.name = name;
-  }
-  sayCar() {
-    console.log(`${this.name}입니다.`);
-  }
-}
+// class Car {
+//   constructor(name) {
+//     this.name = name;
+//   }
+//   sayCar() {
+//     console.log(`${this.name}입니다.`);
+//   }
+// }
 
-let morning = new Car("morning");
-morning.sayCar();
+// let morning = new Car("morning");
+// morning.sayCar();
 
-class ElecCar extends Car {
-  constructor(name, fuel) {
-    super(name);
-    this.fuel = fuel;
-  }
-  sayCar() {
-    super.sayCar();
-    console.log(`그리고 ${this.fuel}로 움직임`);
-  }
-}
+// class ElecCar extends Car {
+//   constructor(name, fuel) {
+//     super(name);
+//     this.fuel = fuel;
+//   }
+//   sayCar() {
+//     super.sayCar();
+//     console.log(`그리고 ${this.fuel}로 움직임`);
+//   }
+// }
 
-let auddi = new ElecCar("auddi", "elec");
-auddi.sayCar();
+// let auddi = new ElecCar("auddi", "elec");
+// auddi.sayCar();
